@@ -6,8 +6,13 @@ def sub(a, b):
     return a - b
 
 
-result1 = add(4, 6)
-result2 = sub(6, 4)
+def mul(a, b):
+    return a * b
 
 
-print(result1, result2)
+if __name__ == "__main__":
+    result1 = add(4, 6)
+    result2 = sub(6, 4)
+    result3 = mul(6, 4)
+
+    print(result1, result2, result3)
