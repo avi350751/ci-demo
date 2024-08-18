@@ -15,6 +15,4 @@ if __name__ == "__main__":
     result2 = sub(6, 4)
     result3 = mul(6, 4)
 
-
     print(result1, result2, result3)
-    
